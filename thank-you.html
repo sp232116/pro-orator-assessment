@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Successful | Pro-Orator Academy</title>
+<meta name="robots" content="noindex, nofollow">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '711130617844391');
+fbq('track', 'PageView');
+fbq('track', 'Purchase', {value: 299, currency: 'INR'});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=711130617844391&ev=Purchase&cd[value]=299&cd[currency]=INR&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    background:#0A1628;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+  }
+  .card{
+    background:#FDF6E3;
+    border-radius:16px;
+    padding:44px 32px;
+    max-width:440px;
+    width:100%;
+    text-align:center;
+    box-shadow:0 20px 60px rgba(0,0,0,.35);
+  }
+  .check{
+    width:64px;height:64px;
+    background:#C9A84C;
+    border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    margin:0 auto 20px;
+    font-size:32px;
+    color:#fff;
+  }
+  h1{
+    color:#0A1628;
+    font-size:1.4rem;
+    margin-bottom:10px;
+  }
+  p{
+    color:#475569;
+    font-size:.92rem;
+    line-height:1.6;
+    margin-bottom:22px;
+  }
+  .spinner{
+    width:22px;height:22px;
+    border:3px solid rgba(201,168,76,.25);
+    border-top-color:#C9A84C;
+    border-radius:50%;
+    margin:0 auto 16px;
+    animation:spin .8s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .redirect-note{
+    font-size:.78rem;
+    color:#94a3b8;
+  }
+  a.manual-link{
+    display:inline-block;
+    margin-top:18px;
+    background:#0A1628;
+    color:#FDF6E3;
+    text-decoration:none;
+    padding:12px 26px;
+    border-radius:8px;
+    font-size:.85rem;
+    font-weight:600;
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="check">✓</div>
+    <h1>Payment Successful!</h1>
+    <p>Your ₹299 Executive Presence Assessment is confirmed. Taking you to the next step to complete your assessment details…</p>
+    <div class="spinner"></div>
+    <p class="redirect-note">Redirecting automatically in a moment.<br/>If nothing happens, tap the button below.</p>
+    <a class="manual-link" href="https://forms.gle/YHxKbH3st1djSt4x5">Continue to Assessment Form →</a>
+  </div>
+
+<script>
+  setTimeout(function(){
+    window.location.href = "https://forms.gle/YHxKbH3st1djSt4x5";
+  }, 1800);
+</script>
+
+</body>
+</html>
